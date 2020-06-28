@@ -19,6 +19,7 @@
 #include "ADC_int.h"
 
 volatile u8 ADC_value;
+u8 amira;
 int main()
 {
 	DIO_u8PortDirection(PORTC,0xFF);//PORTC as o/p to represent the result
